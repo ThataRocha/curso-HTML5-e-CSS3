@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widh=device-width,initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Formatação de Textos</title>     
+        <style>
+            mark{
+                background-color: limegreen;
+            }
+        </style>   
+    </head>
+    <body>
+        <h1>Principais formatações PDF 8</h1>
+        <H2>Negrito / Destaque</H2>
+        <p> Nesse caso temos um endereço <address> Rua Victor Rodrigues Neuber, 114</address> com a tag &lt; address &gt; (Semântica). </p>
+        <p>Nessa frase, temos um <b>termo em negrito</b> usando a tag &lt; B &gt; (Não semântica).</p>
+        <p>Nessa frase , tenho um <strong>termo em destaque</strong> usando a tag  &lt;STRONG&gt; (semântica).</p>
+        <br>
+        <h2>Italico /Ênfase</h2>
+        <p>Nessa frase, temos um<i> termo em itálico</i> usando a tag &lt; I &gt; (Não semântica).</p>
+        <p>Nessa frase , temos um termo em ênfase usando a tag &lt;EM&gt; (Semântica).</p>     
+
+        <p>Podemos criar também <mark>um texto marcado</mark> usando a tag &lt; MARK &gt;</p>  
+        E no outro parágrafo , temo <mark>outro texto marcado</mark> no final.
+
+        <h2>Texto grande e texto pequeno</h2>
+        <p>Estamos criando um <big>texto grande</big> e<small> um texto pequeno </small>nesse parágrafo.</p>
+
+        <h2>Texto deletado </h2>
+        <p>Podemos marcar um<del> texto como excluído </del>para indicar que ele deve ser lido, mais não considerado.</p>
+        <h2>Texto inserido</h2>
+        <p>Podemos marcar <ins>um texto como inserido </ins>para dar ênfase e indicar que foi adcionado depois. &lt; ins &gt;</p>
+        <p>Existe também o <u>sublinhado </u> com a tag &lt; U &gt; (Não semântica).</p>
+        <h2>Texto sobrescrito</h2>
+        <p>Para inserir coisa do tipo x<sup>20</sup>+3 com o uso da tag &lt;sup&gt;</p>
+        <p>Para inserir coisas do tipo H<sub>2</sub>0 com a tag &lt;sub &gt;</p>
+
+        <h2>Outras Formatações</h2>
+        <h3>Código-fonte</h3>
+        <p>O comando documento <code>.getElementById('teste')</code>é escrito em linguagem JavaScript com a tag &lt;code &gt;</p>
+        <pre>
+            <code>
+num = int (input('Digite um número'))
+if num%2 ==0 :
+    printf('O número {num} é par'!);
+else
+    printf('O número {num}é  impar!');
+            </code>
+        </pre>
+        <p>Dentro de uma tag Pre tem a fortação estabelecida no código fonte. &uparrow; </p>
+    </body>
+
+<p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+
+<h2>Citação completa</h2>
+<p>Segundo Jon Duckett, no seu livro HTML para leigos:</p>
+<blockquote cite="https://www.google.com.br/books/edition/Beginning_Web_Programming_with_HTML_XHTM/mwrf1EMOcskC?hl=pt-BR&gbpv=1&dq=html&pg=PA599&printsec=frontcover">
+    Almost every time you want to collect information from a visitor to your site you need to use a form. You have probably use several different kind of forms on different Web sites, from simple search boxes that  allow you to enter keywords in order to find what you are looking for to complex form that allow you to order groceries or book a holiday online.
+</blockquote>
+
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="Hyper Text Markup Linguagem">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando! com a tag &lt; abbr &gt;</p>
+<h2>Texto invertido</h2>
+<p><BDO dir="rtl">Estou aprendendo a criar coisas em HTML &lt; BDO &gt;.</BDO></p>
+</html>

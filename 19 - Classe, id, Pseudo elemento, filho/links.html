@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*        
+            #  = id
+            .  = class
+            :  = pseudo-clase
+            :: = pseudo-elemento
+            >  = children        
+        */
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: red;
+
+        }
+        a:visited{ /*quando já foi visitado o site antes*/
+            color: darkred
+        }
+        a:hover{ /*quando passa o mouse por cima*/
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{ /*Quando click*/
+            color:yellow
+        }
+        .especial {
+            background-color: rgba(255, 0, 0, 0.507);
+        }
+        .especial::before{/*pseu do elemento*/
+            content: '=>';
+        }
+        .especial::after {/*pseu do elemento*/
+           content: '<=';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/thaisocha/" target="_blank">Instragram</a></li>
+        <li><a href="https://github.com/ThataRocha">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/thais-rocha-5a578b20b/" class="especial">Linkedin</a></li>
+
+    </ul>
+</body>
+</html>

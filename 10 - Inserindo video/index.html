@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+    <body>
+        <h1>Inserindo video hospedado em meu proprio servidor.</h1>
+        <!-- a base de navegador do iphone e o safari
+            <video src="video/Forno.webm" width="500" controls></video>
+        -->
+        <video controls poster="img/img.jpg" width="500">
+            <source src="video/forno.mp4" type="video/mp4"> 
+            <source src="video/Forno.m4v" type="video/mp4v">
+            <source src="video/Forno.webm" type="video/webm">
+        </video>
+
+        <h1>Inserido videos do youtube</h1>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </body>
+</html>
